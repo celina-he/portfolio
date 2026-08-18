@@ -21,19 +21,19 @@ export function Intro() {
             <img
               src={profileImage}
               alt="Illustrated portrait of Celina"
-              className="h-24 w-24 rounded-full border-4 border-orange-400 object-cover"
+              className="h-26 w-26 rounded-full border-3 border-orange-400 object-cover"
             />
 
             <div>
-              <h2 className="text-3xl font-bold text-[#356cff]">
+              <h2 className="text-4xl font-bold text-[#356cff]">
                 Celina He
               </h2>
 
-              <p className="mt-1 text-sm italic text-neutral-600">
+              <p className="mt-1 text-lg italic text-neutral-600">
                 developer, illustrator, and student
               </p>
 
-              <p className="mt-1 text-sm italic text-neutral-600">
+              <p className="mt-1 text-lg italic text-neutral-600">
                 artist alias:{" "}
                 <a
                   href="https://www.instagram.com/yumiihe/"
@@ -48,7 +48,7 @@ export function Intro() {
           </div>
 
           {/* Bio */}
-          <div className="mt-10 space-y-4 text-sm leading-6 text-neutral-800">
+          <div className="mt-10 space-y-4 text-lg leading-6 text-neutral-800">
             <p>
               hey! nice to meet ya,{" "}
               <span className="text-[#356cff]">i’m celina.</span>
