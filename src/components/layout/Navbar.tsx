@@ -1,33 +1,71 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
+
 import { navLinks } from "../../data/navLinks";
 
 export function Navbar() {
-  return (
-    <nav className="flex h-14 items-center justify-between bg-neutral-950 px-6 text-sm text-white">
-      <NavLink
-        to="/"
-        className="flex h-16 w-16 -translate-y-2 items-center justify-center rounded-full bg-neutral-900 shadow-lg"
-      >
-        <span className="flex h-12 w-12 items-center justify-center rounded-full bg-pink-500 text-2xl font-bold">
-          C
-        </span>
-      </NavLink>
+  const [isOpen, setIsOpen] = useState(false);
 
-      <div className="flex gap-6 font-mono text-xs tracking-wide">
-        {navLinks.map((link) => (
-          <NavLink
-            key={link.href}
-            to={link.href}
-            className={({ isActive }) =>
-              isActive
-                ? "text-blue-400"
-                : "text-neutral-300 transition hover:text-blue-400"
-            }
-          >
-            {link.label}
-          </NavLink>
-        ))}
+  return (
+    <nav className="sticky top-0 z-50 bg-[#171719] text-white">
+      <div className="flex min-h-16 items-center justify-between px-6 md:px-10">
+        {/* Placeholder logo */}
+        <NavLink
+          to="/"
+          className="font-mono text-sm font-semibold tracking-wide"
+        >
+          Celina He
+        </NavLink>
+
+        {/* Desktop nav */}
+        <div className="hidden items-center gap-6 md:flex">
+          {navLinks.map((link) => (
+            <NavLink
+              key={link.href}
+              to={link.href}
+              className={({ isActive }) =>
+                [
+                  "font-mono text-sm lowercase transition-colors",
+                  isActive
+                    ? "text-[#4278ff]"
+                    : "text-neutral-300 hover:text-white",
+                ].join(" ")
+              }
+            >
+              {link.label}
+            </NavLink>
+          ))}
+        </div>
+
+        {/* Mobile menu button */}
+        <button
+          type="button"
+          className="flex flex-col gap-1.5 md:hidden"
+          onClick={() => setIsOpen((previous) => !previous)}
+          aria-label="Toggle navigation"
+          aria-expanded={isOpen}
+        >
+          <span className="h-0.5 w-6 bg-white" />
+          <span className="h-0.5 w-6 bg-white" />
+          <span className="h-0.5 w-6 bg-white" />
+        </button>
       </div>
+
+      {/* Mobile menu */}
+      {isOpen && (
+        <div className="border-t border-neutral-800 bg-[#171719] md:hidden">
+          {navLinks.map((link) => (
+            <NavLink
+              key={link.href}
+              to={link.href}
+              onClick={() => setIsOpen(false)}
+              className="block px-6 py-4 font-mono text-sm text-neutral-300 hover:bg-neutral-900 hover:text-white"
+            >
+              {link.label}
+            </NavLink>
+          ))}
+        </div>
+      )}
     </nav>
   );
 }
