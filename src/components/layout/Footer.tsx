@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer className="bg-[#171719] px-6 py-8 text-neutral-400">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-xs md:flex-row">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-xs md:flex-row font-mono">
         <p>© {new Date().getFullYear()} Celina He</p>
 
         <div className="flex gap-5">
@@ -11,22 +11,22 @@ export function Footer() {
             rel="noreferrer"
             className="hover:text-white"
           >
-            Instagram
+            insta
           </a>
 
           <a
             href="mailto:celinahe@gmail.com"
             className="hover:text-white"
           >
-            Email
+            email
           </a>
 
           <a href="https://github.com/celina-he" className="hover:text-white">
-            GitHub
+            github
           </a>
 
           <a href="http://linkedin.com/in/celina-he-1340b6244/" className="hover:text-white">
-            LinkedIn
+            linkedin
           </a>
         </div>
       </div>
