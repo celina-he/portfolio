@@ -13,7 +13,7 @@ export function Experience() {
     >
       <div className="mx-auto max-w-3xl rounded-[30px] border-[3px] border-[#356cff] bg-[#292a31]/95 p-8 text-white shadow-2xl md:p-14">
         <h2 className="text-center text-3xl font-bold">
-          Work Experience
+          Previously worked as a(n)...
         </h2>
 
         <div className="relative mt-12">
@@ -42,7 +42,7 @@ export function Experience() {
                   </p>
 
                   <h3 className="mt-2 text-base font-bold">
-                    {experience.role} · {experience.company}
+                    {experience.role} @ {experience.company}
                   </h3>
 
                   {experience.description && (

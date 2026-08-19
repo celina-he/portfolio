@@ -55,15 +55,15 @@ export function Intro() {
             </p>
 
             <p>
-              i’m currently studying{" "}
+              i’m studying{" "}
               <span className="text-[#356cff]">
-                software engineering @ the university of waterloo
+                software engineering @UWaterloo
               </span>{" "}
               because i had too much screen time as a kid.
             </p>
 
             <p>
-              i like to write code (🤓), draw, play roguelites, and go cafe hopping
+              i like to write code, draw, play roguelites, and go cafe hopping
               to find the perfect spot to loiter.
             </p>
           </div>
