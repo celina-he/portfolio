@@ -12,7 +12,7 @@ export function Navbar() {
         {/* Placeholder logo */}
         <NavLink
           to="/"
-          className="font-mono text-sm font-semibold tracking-wide"
+          className="font-mono text-md font-semibold tracking-wide"
         >
           Celina He
         </NavLink>
@@ -25,7 +25,7 @@ export function Navbar() {
               to={link.href}
               className={({ isActive }) =>
                 [
-                  "font-mono text-sm lowercase transition-colors",
+                  "font-mono text-md lowercase transition-colors",
                   isActive
                     ? "text-[#4278ff]"
                     : "text-neutral-300 hover:text-white",

@@ -1,6 +1,4 @@
 import experienceBackground from "../../assets/images/home/dada-mountains.png";
-import profileImage from "../../assets/images/headphones.png";
-
 import { experienceItems } from "../../data/experience";
 
 export function Experience() {
@@ -35,9 +33,9 @@ export function Experience() {
                 {/* Avatar */}
                 <div className="relative z-10 shrink-0">
                   <img
-                    src={profileImage}
-                    alt=""
-                    className="h-16 w-16 rounded-full border-[3px] border-orange-400 object-cover md:h-20 md:w-20"
+                    src={experience.image}
+                    alt={`${experience.company} logo`}
+                    className="h-16 w-16 rounded-full border-[3px] border-orange-400 bg-white object-cover md:h-20 md:w-20"
                   />
                 </div>
 
