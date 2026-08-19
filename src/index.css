@@ -12,3 +12,66 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* Hero Page Section */
+
+/* Background float */
+@keyframes hero-background-float {
+  0% {
+    background-position: 50% 45%;
+  }
+
+  50% {
+    background-position: 50% 60%;
+  }
+
+  100% {
+    background-position: 50% 45%;
+  }
+}
+
+.hero-background-float {
+  animation: hero-background-float 10s ease-in-out infinite;
+}
+
+/* Typewriter Text Effect */
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.08em solid currentColor;
+
+  width: 0;
+
+  animation:
+    typing 2.2s steps(13, end) forwards,
+    blink-caret 0.75s step-end 4,
+    hide-caret 0s 3.7s forwards;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 9.3ch;
+  }
+}
+
+@keyframes blink-caret {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: currentColor;
+  }
+}
+
+@keyframes hide-caret {
+  to {
+    border-color: transparent;
+  }
+}

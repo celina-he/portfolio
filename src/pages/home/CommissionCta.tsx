@@ -1,7 +1,7 @@
 export function CommissionCta() {
   return (
-    <section className="bg-[#f7f8ff] px-6 py-8 md:px-8">
-      <div className="grid min-h-[210px] border-2 border-[#4e7cff] md:grid-cols-2">
+    <section className="bg-[#f7f8ff] px-6 py-6 md:px-6">
+      <div className="grid min-h-[250px] border-2 border-[#4e7cff] md:grid-cols-2">
         {/* Placeholder visual area */}
         <div className="hidden md:block" />
 
@@ -14,16 +14,12 @@ export function CommissionCta() {
             </h2>
 
             <a
-              href="#"
+              href="https://yumicommissions.carrd.co/#"
               className="mt-5 inline-flex items-center gap-2 text-sm text-neutral-700 hover:text-[#356cff]"
             >
               <span>↗</span>
               Commission Info
             </a>
-
-            <p className="mt-3 text-xs italic text-neutral-400">
-              commission page coming soon
-            </p>
           </div>
         </div>
       </div>

@@ -3,7 +3,18 @@ import subwayImage from "../../assets/images/home/subway.png";
 export function CurrentStuff() {
   return (
     <section
-      className="relative flex min-h-[720px] items-center bg-cover bg-center px-8 py-20 md:min-h-[850px] md:px-16"
+      className="
+        relative
+        flex min-h-[720px]
+        items-center
+        bg-cover
+        bg-center
+        bg-fixed
+        px-8
+        py-20
+        md:min-h-[850px]
+        md:px-16
+      "
       style={{
         backgroundImage: `url(${subwayImage})`,
       }}
@@ -41,7 +52,7 @@ export function CurrentStuff() {
           </p>
 
           {/* Placeholder */}
-          <p className="text-sm italic text-neutral-500">
+          <p className="text-sm italic text-[#356cff]">
             more things coming soon...
           </p>
         </div>

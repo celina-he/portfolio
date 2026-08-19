@@ -21,7 +21,7 @@ export function Intro() {
             <img
               src={profileImage}
               alt="Illustrated portrait of Celina"
-              className="h-26 w-26 rounded-full border-3 border-orange-400 object-cover"
+              className="h-35 w-35 rounded-full border-3 border-orange-400 object-cover"
             />
 
             <div>

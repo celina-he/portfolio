@@ -6,7 +6,13 @@ import { experienceItems } from "../../data/experience";
 export function Experience() {
   return (
     <section
-      className="min-h-[1000px] bg-cover bg-center px-6 py-24"
+      className="
+        min-h-[1000px] 
+        bg-cover 
+        bg-center
+        px-6 
+        py-24
+      "
       style={{
         backgroundImage: `url(${experienceBackground})`,
       }}
