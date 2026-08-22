@@ -7,7 +7,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 bg-[#171719] text-white">
+    <nav className="sticky top-0 z-50 bg-[#171719] text-[#EFF0F4]">
       <div className="flex min-h-16 items-center justify-between px-6 md:px-10">
         {/* Placeholder logo */}
         <NavLink
@@ -28,7 +28,7 @@ export function Navbar() {
                   "font-mono text-md lowercase transition-colors",
                   isActive
                     ? "text-[#4278ff]"
-                    : "text-neutral-300 hover:text-white",
+                    : "text-[#EFF0F4] hover:text-[#93ABFA]",
                 ].join(" ")
               }
             >
