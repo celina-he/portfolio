@@ -31,7 +31,7 @@ body {
 }
 
 .hero-background-float {
-  animation: hero-background-float 10s ease-in-out infinite;
+  animation: hero-background-float 9s ease-in-out infinite;
 }
 
 /* Typewriter Text Effect */
