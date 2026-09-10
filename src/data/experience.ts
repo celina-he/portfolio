@@ -21,7 +21,7 @@ export const experienceItems: ExperienceItem[] = [
     role: "Fullstack Software Developer",
     company: "KORE Solutions",
     description: "Expenses Team",
-    tags: ["FastAPI", "RabbitMQ", "React"],
+    tags: ["FastAPI", "SQLAlchemy", "React"],
     image: koreLogo,
   },
   {

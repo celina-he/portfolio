@@ -17,7 +17,7 @@ export function Experience() {
     >
       <div className="mx-auto max-w-3xl rounded-[30px] border-[3px] border-[#356cff] bg-[#292a31]/95 p-8 text-white shadow-2xl md:p-14">
         <h2 className="text-center text-3xl font-bold">
-          Previously worked as a(n)...
+          Experience
         </h2>
 
         <div className="relative mt-12">
