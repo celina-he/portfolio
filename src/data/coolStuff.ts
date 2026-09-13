@@ -5,23 +5,23 @@ import mirrorBlindCover from "../assets/images/cool-stuff/mirror-blind-cover.png
 import animationCover from "../assets/images/cool-stuff/animation-cover.png";
 import canvasCover from "../assets/images/cool-stuff/canvas-cover.jpeg";
 
-// import tctcLogo from "../assets/images/cool-stuff/tctc-logo.png";
-// import tctcFinal from "../assets/images/cool-stuff/tctc-final-design.png";
-// import tctcSketch from "../assets/images/cool-stuff/tctc-sketch.png";
-// import tctcMock1 from "../assets/images/cool-stuff/tctc-mock-1.jpeg";
-// import tctcMock2 from "../assets/images/cool-stuff/tctc-mock-2.jpeg";
+import tctcLogo from "../assets/images/cool-stuff/tctc-logo.png";
+import tctcFinal from "../assets/images/cool-stuff/tctc-final-design.png";
+import tctcSketch from "../assets/images/cool-stuff/tctc-sketch.png";
+import tctcMock1 from "../assets/images/cool-stuff/tctc-mock-1.jpeg";
+import tctcMock2 from "../assets/images/cool-stuff/tctc-mock-2.jpeg";
 
-// import se28Front1 from "../assets/images/cool-stuff/se28-front-design-1.png";
-// import se28Front2 from "../assets/images/cool-stuff/se28-front-design-2.png";
-// import se28Front3 from "../assets/images/cool-stuff/se28-front-design-3.png";
-// import se28Front4 from "../assets/images/cool-stuff/se28-front-design-4.png";
-// import se28MockFront from "../assets/images/cool-stuff/se28-mock-front.png";
-// import se28Hoodie from "../assets/images/cool-stuff/se28-hoodie.jpeg";
+import se28Front1 from "../assets/images/cool-stuff/se28-front-design-1.png";
+import se28Front2 from "../assets/images/cool-stuff/se28-front-design-2.png";
+import se28Front3 from "../assets/images/cool-stuff/se28-front-design-3.png";
+import se28Front4 from "../assets/images/cool-stuff/se28-front-design-4.png";
+import se28MockFront from "../assets/images/cool-stuff/se28-mock-front.png";
+import se28Hoodie from "../assets/images/cool-stuff/se28-hoodie.jpeg";
 
-// import canvasFish1 from "../assets/images/cool-stuff/canvas-fish-1.jpeg";
-// import canvasFish2 from "../assets/images/cool-stuff/canvas-fish-2.jpeg"
-// import canvasSubway1 from "../assets/images/cool-stuff/canvas-subway-1.jpeg";
-// import canvasSubway2 from "../assets/images/cool-stuff/canvas-subway-2.jpeg";
+import canvasFish1 from "../assets/images/cool-stuff/canvas-fish-1.jpeg";
+import canvasFish2 from "../assets/images/cool-stuff/canvas-fish-2.jpeg"
+import canvasSubway1 from "../assets/images/cool-stuff/canvas-subway-1.jpeg";
+import canvasSubway2 from "../assets/images/cool-stuff/canvas-subway-2.jpeg";
 
 export type CoolStuffProject = {
   slug: string;
@@ -52,12 +52,17 @@ export const coolStuffProjects: CoolStuffProject[] = [
     tags: ["design", "merch"],
     coverImage: tctcCover,
     images: [
-
+        tctcLogo,
+        tctcFinal,
+        tctcSketch,
+        tctcMock1,
+        tctcMock2,
+        tctcCover
     ],
     links: [
       {
         label: "check out TCTC",
-        href: "#",
+        href: "https://www.instagram.com/trackclubtrackclub?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
       },
     ],
   },
@@ -72,7 +77,13 @@ export const coolStuffProjects: CoolStuffProject[] = [
     tags: ["design", "merch"],
     coverImage: se28Cover,
     images: [
-      // add real images later
+      se28Cover,
+      se28Front1,
+      se28Front2,
+      se28Front3,
+      se28Front4,
+      se28MockFront,
+      se28Hoodie
     ],
   },
 
@@ -85,14 +96,17 @@ export const coolStuffProjects: CoolStuffProject[] = [
       "I created an art installation for UWaterloo and documented the finished piece and process.",
     tags: ["art", "installation"],
     coverImage: installationCover,
+    images: [
+        installationCover
+    ],
     links: [
       {
         label: "official link",
-        href: "#",
+        href: "https://uwaterloo.ca/campus-housing/plan-action",
       },
       {
-        label: "instagram post",
-        href: "#",
+        label: "insta link",
+        href: "https://www.instagram.com/uwhousing/p/C_BCndcx4xg/",
       },
     ],
   },
@@ -109,7 +123,7 @@ export const coolStuffProjects: CoolStuffProject[] = [
     links: [
       {
         label: "read it",
-        href: "#",
+        href: "https://www.webtoons.com/en/canvas/mirror-blind/list?title_no=725078",
       },
     ],
   },
@@ -123,17 +137,24 @@ export const coolStuffProjects: CoolStuffProject[] = [
       "This was my first real attempt at animation. It was difficult, but I learned a lot from the process.",
     tags: ["animation", "art"],
     coverImage: animationCover,
-    youtubeId: "dQw4w9WgXcQ",
+    youtubeId: "70_DCJRMpug",
   },
 
   {
     slug: "canvas-build-art",
-    title: "created an animation music video",
+    title: "built 24” x 36” canvases by hand + made huge paintings",
     shortDescription:
-      "my first attempt at making an animated music video.",
+      "my first time using a power drill... and maybe the last 😰",
     description:
-      "This was my first real attempt at animation. It was difficult, but I learned a lot from the process.",
+      "my first time using a power drill... and maybe the last 😰",
     tags: ["woodworking", "art"],
     coverImage: canvasCover,
+    images: [
+      canvasCover,
+      canvasFish1,
+      canvasFish2,
+      canvasSubway1,
+      canvasSubway2,
+    ],
   },
 ];
