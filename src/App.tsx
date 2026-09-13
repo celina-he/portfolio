@@ -4,6 +4,7 @@ import { Home } from "./pages/home/Home";
 import { Projects } from "./pages/projects/Projects";
 import { Illustrations } from "./pages/illustrations/Illustrations";
 import { CoolStuff } from "./pages/cool-stuff/CoolStuff";
+import { CoolStuffDetail } from "./pages/cool-stuff/CoolStuffDetail";
 import { NotFound } from "./pages/NotFound";
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/illustrations" element={<Illustrations />} />
           <Route path="/cool-stuff" element={<CoolStuff />} />
+          <Route
+            path="/cool-stuff/:slug"
+            element={<CoolStuffDetail />}
+          />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </PageShell>
