@@ -39,6 +39,7 @@ export const projects: Project[] = [
     image: cafeHopperImage,
 
     githubUrl: "https://github.com/trinity-y/cafe-hopper",
+    liveUrl: "https://cafe-hopper.vercel.app/",
   },
 
   {
