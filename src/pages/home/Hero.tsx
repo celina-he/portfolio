@@ -22,7 +22,7 @@ export function Hero() {
 
       <div className="relative z-10 flex min-h-[620px] items-center justify-center px-6 text-center text-white md:min-h-[760px]">
         <div>
-          <h1 className="text-6xl font-bold tracking-wide md:text-8xl">
+          <h1 className="text-5xl font-bold tracking-wide md:text-8xl">
             <span className="typewriter">
                 hi! i’m celina
             </span>
