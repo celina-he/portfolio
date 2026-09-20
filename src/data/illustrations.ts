@@ -28,6 +28,7 @@ import squidGame from "../assets/images/illustrations/squid-game.png";
 import suzuya from "../assets/images/illustrations/suzuya-tg.png";
 import xiangling from "../assets/images/illustrations/xiangling-genshin.png";
 import tradegy from "../assets/images/illustrations/tradegy.png";
+import fish from "../assets/images/home/fish.png";
 
 export type Illustration = {
   id: number;
@@ -189,9 +190,9 @@ export const illustrations: Illustration[] = [
   },
   {
     id: 26,
-    title: "Jaye",
-    image: jaye,
-    alt: "Jaye, Arknights",
+    title: "Fish",
+    image: fish,
+    alt: "Fish, Original",
   },
   {
     id: 27,
