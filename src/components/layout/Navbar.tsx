@@ -9,12 +9,19 @@ export function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-[#171719] text-[#EFF0F4]">
       <div className="flex min-h-16 items-center justify-between px-6 md:px-10">
-        {/* Placeholder logo */}
         <NavLink
           to="/"
-          className="font-mono text-md font-semibold tracking-wide"
+          className="flex items-center gap-3"
         >
-          Celina He
+          <img
+            src="/favicon.png"
+            alt="happy star icon"
+            className="h-7 w-7 object-contain"
+          />
+
+          <span className="font-mono text-lg font-semibold tracking-wide hover:text-[#93ABFA]"> 
+            Celina He
+          </span>
         </NavLink>
 
         {/* Desktop nav */}
