@@ -2,11 +2,10 @@ import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <footer className="bg-[#171719] px-6 py-8 text-[#EFF0F4]">
-      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm md:flex-row font-mono">
-        <p>© {new Date().getFullYear()} Celina He</p>
+    <footer className="bg-[#171719] px-6 py-6 text-[#EFF0F4] border-t-3 border-[#FF9532]">
+      <div className="mx-auto flex max-w-6xl flex-col items-center text-center gap-3 text-xs font-light font-mono">
 
-        <div className="flex gap-5 text-xl">
+        <div className="flex gap-5 text-2xl items-center justify-center">
           <a
             href="https://www.instagram.com/yumiihe/"
             target="_blank"
@@ -31,6 +30,8 @@ export function Footer() {
             <FaLinkedin />
           </a>
         </div>
+
+        <p>© {new Date().getFullYear()} Celina He</p>
       </div>
     </footer>
   );
