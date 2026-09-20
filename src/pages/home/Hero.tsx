@@ -23,7 +23,7 @@ export function Hero() {
 
       <div className="relative z-10 flex min-h-[620px] items-center justify-center px-6 text-center text-white md:min-h-[760px] hero-title-float sticky font-mono">
         <div>
-          <h1 className="textxl font-bold tracking-wide md:text-8xl [word-spacing:-1.5rem]">
+          <h1 className="text-5xl font-bold tracking-wide md:text-8xl">
             <span>
                 CELINA HE
             </span>
