@@ -16,7 +16,7 @@ export function Navbar() {
           <img
             src="/favicon.png"
             alt="happy star icon"
-            className="h-7 w-7 object-contain"
+            className="h-7 w-7 object-contain hover:animate-spin"
           />
 
           <span className="font-mono text-lg font-semibold tracking-wide hover:text-[#93ABFA]"> 
