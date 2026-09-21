@@ -23,7 +23,7 @@ export function FrameAnimation({
     <img
       src={frames[currentFrame]}
       alt=""
-      className="h-72 object-contain"
+      className="h-56 object-contain"
     />
   );
 }
