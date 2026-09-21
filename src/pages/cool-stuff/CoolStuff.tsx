@@ -62,7 +62,7 @@ export function CoolStuff() {
                     "rounded-full px-5 py-2 text-sm transition",
                     isActive
                       ? "bg-[#315eff] text-white"
-                      : "bg-neutral-100 text-neutral-800 hover:bg-neutral-200",
+                      : "bg-neutral-100 text-neutral-800 hover:bg-[#DCE2F7] hover:text-[#315eff]",
                   ].join(" ")}
                 >
                   {tag}
