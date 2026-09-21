@@ -29,15 +29,15 @@ export function CurrentStuff() {
             <span className="font-semibold underline">
               studyTama
             </span>{" "}
-            · i’m building a tamagotchi-inspired study web extension to stop
+            ✰ i’m building a tamagotchi-inspired study web extension to stop
             myself from doom scrolling... project name is still in the works 😬
           </p>
 
           <p>
-            <span className="font-semibold underline">
+            <a href="https://www.instagram.com/uwscrabble/" className="hover:text-[#356cff] font-semibold underline">
               uwaterloo scrabble club
-            </span>{" "}
-            · we run weekly game nights and sometimes local tournaments when we
+            </a>{" "}
+            ✰ we run weekly game nights and sometimes local tournaments when we
             have money 🙏
           </p>
 
@@ -45,7 +45,7 @@ export function CurrentStuff() {
             i’m making an artbook! check out{" "}
             <a
               href="/illustrations"
-              className="text-[#356cff] underline underline-offset-2"
+              className="hover:text-[#356cff] underline underline-offset-2"
             >
               my work.
             </a>
