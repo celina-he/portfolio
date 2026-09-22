@@ -22,11 +22,19 @@ export function Footer() {
             <FaEnvelope />
           </a>
 
-          <a href="https://github.com/celina-he" className="hover:text-[#5887FF]">
+          <a href="https://github.com/celina-he"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-[#5887FF]"
+          >
             <FaGithub />
           </a>
 
-          <a href="http://linkedin.com/in/celina-he-1340b6244/" className="hover:text-[#5887FF]">
+          <a href="http://linkedin.com/in/celina-he-1340b6244/" 
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-[#5887FF]"
+          >
             <FaLinkedin />
           </a>
         </div>

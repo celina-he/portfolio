@@ -29,6 +29,14 @@ import suzuya from "../assets/images/illustrations/suzuya-tg.png";
 import xiangling from "../assets/images/illustrations/xiangling-genshin.png";
 import tradegy from "../assets/images/illustrations/tradegy.png";
 import fish from "../assets/images/home/fish.png";
+import apple from "../assets/images/illustrations/apple-of-my-eye.png";
+import ceobe from "../assets/images/illustrations/ceobe-arknights.png";
+import earrings from "../assets/images/illustrations/earrings.png";
+import lappland from "../assets/images/illustrations/lappland-arknights.png";
+import mouseDoodle from "../assets/images/illustrations/mouse-doodle.png";
+import w from "../assets/images/illustrations/w-arknights.png";
+import w2 from "../assets/images/illustrations/w2-arknights.png";
+import witchSummer from "../assets/images/illustrations/witch-summer.png";
 
 export type Illustration = {
   id: number;
@@ -44,18 +52,6 @@ export const illustrations: Illustration[] = [
     title: "DaDa Mountains",
     image: dada,
     alt: "DaDa Mountains, Witch Hat Atelier",
-  },
-  {
-    id: 2,
-    title: "Wedding",
-    image: wedding,
-    alt: "Wedding, Original",
-  },
-  {
-    id: 3,
-    title: "Sunset",
-    image: sunset,
-    alt: "Sunset, Original",
   },
   {
     id: 4,
@@ -99,16 +95,40 @@ export const illustrations: Illustration[] = [
     alt: "Specter, Arknights",
   },
   {
-    id: 11,
-    title: "Thorns",
-    image: thorns,
-    alt: "Thorns, Arknights",
+    id: 35,
+    title: "Lappland",
+    image: lappland,
+    alt: "Lappland, Arknights",
   },
   {
-    id: 12,
-    title: "Mostima",
-    image: mostima,
-    alt: "Mostima, Arknights",
+    id: 24,
+    title: "D.O.",
+    image: dO,
+    alt: "D.O., EXO",
+  },
+  {
+    id: 31,
+    title: "Tradegy",
+    image: tradegy,
+    alt: "Tradegy, Original",
+  },
+  {
+    id: 37,
+    title: "W",
+    image: w,
+    alt: "W, Arknights",
+  },
+  {
+    id: 2,
+    title: "Wedding",
+    image: wedding,
+    alt: "Wedding, Original",
+  },
+  {
+    id: 3,
+    title: "Sunset",
+    image: sunset,
+    alt: "Sunset, Original",
   },
   {
     id: 13,
@@ -127,6 +147,24 @@ export const illustrations: Illustration[] = [
     title: "Out of Service",
     image: outOfService,
     alt: "Out of Service, Original",
+  },
+  {
+    id: 20,
+    title: "Headphones",
+    image: headphones,
+    alt: "Headphones, Original",
+  },
+  {
+    id: 12,
+    title: "Mostima",
+    image: mostima,
+    alt: "Mostima, Arknights",
+  },
+  {
+    id: 26,
+    title: "Fish",
+    image: fish,
+    alt: "Fish, Original",
   },
   {
     id: 16,
@@ -153,34 +191,10 @@ export const illustrations: Illustration[] = [
     alt: "Link, Breath of the Wild, Legend of Zelda",
   },
   {
-    id: 20,
-    title: "Headphones",
-    image: headphones,
-    alt: "Headphones, Original",
-  },
-  {
-    id: 21,
-    title: "Blue Boy",
-    image: blueBoy,
-    alt: "Blue Boy, Original",
-  },
-  {
-    id: 22,
-    title: "Angelina",
-    image: angelina,
-    alt: "Angelina, Arknights",
-  },
-  {
     id: 23,
     title: "Bloody Queen",
     image: bloodyQueen,
     alt: "Bloody Queen, Elsword",
-  },
-  {
-    id: 24,
-    title: "D.O.",
-    image: dO,
-    alt: "D.O., EXO",
   },
   {
     id: 25,
@@ -189,22 +203,34 @@ export const illustrations: Illustration[] = [
     alt: "Irene & Jamie, Original",
   },
   {
-    id: 26,
-    title: "Fish",
-    image: fish,
-    alt: "Fish, Original",
-  },
-  {
-    id: 27,
-    title: "Jaye",
-    image: jaye,
-    alt: "Jaye, Arknights",
-  },
-  {
     id: 28,
     title: "Thanks for Playing With Me",
     image: squidGame,
     alt: "067 & 240, Squid Game",
+  },
+  {
+    id: 11,
+    title: "Thorns",
+    image: thorns,
+    alt: "Thorns, Arknights",
+  },
+  {
+    id: 32,
+    title: "Apple of my Eye",
+    image: apple,
+    alt: "Apple of my Eye, Original",
+  },
+  {
+    id: 33,
+    title: "Ceobe",
+    image: ceobe,
+    alt: "Ceobe, Arknights",
+  },
+  {
+    id: 22,
+    title: "Angelina",
+    image: angelina,
+    alt: "Angelina, Arknights",
   },
   {
     id: 29,
@@ -219,9 +245,39 @@ export const illustrations: Illustration[] = [
     alt: "Xiangling, Genshin Impact",
   },
   {
-    id: 31,
-    title: "Tradegy",
-    image: tradegy,
-    alt: "Tradegy, Original",
+    id: 34,
+    title: "Earrings",
+    image: earrings,
+    alt: "Earrings, Original",
+  },
+  {
+    id: 36,
+    title: "Eye",
+    image: mouseDoodle,
+    alt: "Eye, Original",
+  },
+  {
+    id: 38,
+    title: "W v.2",
+    image: w2,
+    alt: "W v.2, Arknights",
+  },
+  {
+    id: 39,
+    title: "Witch in Summer",
+    image: witchSummer,
+    alt: "Witch in Summer, Original",
+  },
+  {
+    id: 21,
+    title: "Blue Boy",
+    image: blueBoy,
+    alt: "Blue Boy, Original",
+  },
+  {
+    id: 27,
+    title: "Jaye",
+    image: jaye,
+    alt: "Jaye, Arknights",
   },
 ];
