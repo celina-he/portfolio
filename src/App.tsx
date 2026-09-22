@@ -1,5 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { ScrollToTop } from "./components/ScrollToTop";
 import { PageShell } from "./components/layout/PageShell";
+
 import { Home } from "./pages/home/Home";
 import { Projects } from "./pages/projects/Projects";
 import { Illustrations } from "./pages/illustrations/Illustrations";
@@ -10,6 +13,7 @@ import { NotFound } from "./pages/NotFound";
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <PageShell>
         <Routes>
           <Route path="/" element={<Home />} />

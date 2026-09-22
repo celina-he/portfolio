@@ -28,11 +28,11 @@ export function CoolStuffCard({ project }: CoolStuffCardProps) {
         </div>
 
         <div className="py-4">
-          <h2 className="text-xl font-semibold text-neutral-900">
+          <h2 className="text-xl font-semibold text-neutral-900 group-hover:text-[#356cff]">
             {project.title}
           </h2>
 
-          <p className="mt-2 text-sm leading-6 text-neutral-500">
+          <p className="mt-2 text-sm leading-6 text-neutral-500 group-hover:text-[#5887FF]">
             {project.shortDescription}
           </p>
 
@@ -40,7 +40,7 @@ export function CoolStuffCard({ project }: CoolStuffCardProps) {
             {project.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-600"
+                className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-600 group-hover:text-[#5887FF]"
               >
                 {tag}
               </span>
