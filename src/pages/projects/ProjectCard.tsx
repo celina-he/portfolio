@@ -23,6 +23,8 @@ export function ProjectCard({ project }: ProjectCardProps) {
             duration-300
             group-hover:scale-[1.03]
         "
+        loading="lazy"
+        decoding="async"
         />
     </div>
 

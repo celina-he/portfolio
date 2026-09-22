@@ -36,6 +36,8 @@ export function Experience() {
                     src={experience.image}
                     alt={`${experience.company} logo`}
                     className="h-16 w-16 rounded-full border-[3px] border-orange-400 bg-white object-cover md:h-20 md:w-20"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
 

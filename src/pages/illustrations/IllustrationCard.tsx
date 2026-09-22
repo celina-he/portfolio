@@ -22,6 +22,8 @@ export function IllustrationCard({
               duration-300
               group-hover:scale-[1.02]
             "
+            loading="lazy"
+            decoding="async"
           />
         ) : (
           <div
