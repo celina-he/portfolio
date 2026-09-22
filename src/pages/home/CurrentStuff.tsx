@@ -51,8 +51,7 @@ export function CurrentStuff() {
             </a>
           </p>
 
-          {/* Placeholder */}
-          <p className="text-sm italic text-[#356cff]">
+          <p className="text-md italic text-[#356cff]">
             more things coming soon...
           </p>
         </div>

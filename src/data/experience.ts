@@ -29,7 +29,7 @@ export const experienceItems: ExperienceItem[] = [
     location: "Toronto",
     role: "Engineering Intern",
     company: "Vivid Seats",
-    description: "Distribution Team",
+    description: "B2C Web-Distribution Team",
     tags: ["React", "JS/TS", "Postman"],
     image: vividSeatsLogo,
   },

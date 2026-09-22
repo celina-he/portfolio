@@ -43,10 +43,9 @@ export function CommissionCta() {
 
             <a
               href="https://yumicommissions.carrd.co/#"
-              className="mt-5 inline-flex items-center gap-2 text-lg text-neutral-700 hover:text-[#356cff]"
+              className="mt-5 inline-flex items-center gap-2 text-lg text-neutral-700 hover:text-[#356cff] hover:underline"
             >
-              <span>↗</span>
-              Commission Info
+              ↗ Commission Info
             </a>
           </div>
         </div>

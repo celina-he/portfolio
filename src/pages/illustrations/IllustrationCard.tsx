@@ -57,7 +57,7 @@ export function IllustrationCard({
           <p
             className="
               translate-y-2
-              text-sm
+              text-md
               font-medium
               text-white
               opacity-0
@@ -65,6 +65,7 @@ export function IllustrationCard({
               duration-300
               group-hover:translate-y-0
               group-hover:opacity-100
+              font-mono
             "
           >
             {illustration.title}
