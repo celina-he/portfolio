@@ -45,7 +45,7 @@ export function CoolStuff() {
 
           {/* Filter heading */}
           <h2 className="text-3xl font-bold md:text-4xl">
-            what i’ve been making. for the bit.
+            what i've been making
           </h2>
 
           {/* Tags */}
