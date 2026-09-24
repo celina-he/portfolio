@@ -14,7 +14,7 @@ export function Illustrations() {
             Illustrations
           </h1>
 
-          <p className="mt-4 max-w-xl text-base leading-7 text-white/80 hover:text-[#FF9532] md:text-lg">
+          <p className="mt-4 max-w-xl text-base leading-7 text-white/80 hover:underline hover:text-white md:text-lg">
             <a
               href="https://yumicommissions.carrd.co/#"
             >
