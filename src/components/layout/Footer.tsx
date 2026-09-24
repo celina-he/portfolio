@@ -10,32 +10,32 @@ export function Footer() {
             href="https://www.instagram.com/yumiihe/"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-[#5887FF]"
+            className="group hover:text-[#5887FF]"
           >
-            <FaInstagram />
+            <FaInstagram className="group-hover:scale-120 transition-transform duration-200" />
           </a>
 
           <a
             href="mailto:celinahe@gmail.com"
-            className="hover:text-[#5887FF]"
+            className="group hover:text-[#5887FF]"
           >
-            <FaEnvelope />
+            <FaEnvelope className="group-hover:scale-120 transition-transform duration-200" />
           </a>
 
           <a href="https://github.com/celina-he"
             target="_blank"
             rel="noreferrer"
-            className="hover:text-[#5887FF]"
+            className="group hover:text-[#5887FF]"
           >
-            <FaGithub />
+            <FaGithub className="group-hover:scale-120 transition-transform duration-200" />
           </a>
 
           <a href="http://linkedin.com/in/celina-he-1340b6244/" 
             target="_blank"
             rel="noreferrer"
-            className="hover:text-[#5887FF]"
+            className="group hover:text-[#5887FF]"
           >
-            <FaLinkedin />
+            <FaLinkedin className="group-hover:scale-120 transition-transform duration-200" />
           </a>
         </div>
 
