@@ -40,7 +40,7 @@ export function CoolStuffCard({ project }: CoolStuffCardProps) {
             {project.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-600 group-hover:text-[#5887FF]"
+                className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-600 group-hover:text-white group-hover:bg-[#5887FF]"
               >
                 {tag}
               </span>

@@ -46,9 +46,9 @@ export const coolStuffProjects: CoolStuffProject[] = [
     slug: "tctc-merch",
     title: "designed a NYC track club’s merch!",
     shortDescription:
-      "with more merch designs to come out in the future...",
+      "with more merch designs to come out TBA",
     description:
-      "I designed merchandise for TCTC, with more merch concepts planned for the future.",
+      "I designed merch for Track Club Track Club (TCTC), with more merch concepts planned for the future! Iterated constantly to bring it from chicken scratch ceoncepts to final design.",
     tags: ["design", "merch"],
     coverImage: tctcCover,
     images: [
@@ -62,7 +62,7 @@ export const coolStuffProjects: CoolStuffProject[] = [
     links: [
       {
         label: "check out TCTC",
-        href: "https://www.instagram.com/trackclubtrackclub?utm_source=ig_web_button_share_sheet&stkn=ZDNlZDc0MzIxNw==",
+        href: "https://www.instagram.com/trackclubtrackclub/",
       },
     ],
   },
@@ -71,25 +71,25 @@ export const coolStuffProjects: CoolStuffProject[] = [
     slug: "se28-hoodies",
     title: "designed my program cohort’s hoodies",
     shortDescription:
-      "hoodie designs for Waterloo Software Engineering '28.",
+      "hoodie designs for Waterloo Software Engineering '28 (SE’28 🔥)!",
     description:
-      "I created several hoodie concepts for my cohort, refined the final design, and helped bring it from mockup to the real thing.",
+      "I created several hoodie concepts for my cohort, refined the final design, and helped bring it from a sketch to the real thing. Here were some of the possible options, final design mock + the real deal :)",
     tags: ["design", "merch"],
     coverImage: se28Cover,
     images: [
-      se28Cover,
+      se28Hoodie,
       se28Front1,
+      se28Cover,
       se28Front2,
       se28Front3,
-      se28Front4,
       se28MockFront,
-      se28Hoodie
+      se28Front4,
     ],
   },
 
   {
     slug: "uwaterloo-art-installation",
-    title: "made an art installation for UWaterloo",
+    title: "made an art installation for uwaterloo",
     shortDescription:
       "an installation project created for the University of Waterloo.",
     description:
@@ -142,7 +142,7 @@ export const coolStuffProjects: CoolStuffProject[] = [
 
   {
     slug: "canvas-build-art",
-    title: "built 24” x 36” canvases by hand + made huge paintings",
+    title: "built 24” x 36” canvases by hand + painted huge",
     shortDescription:
       "my first time using a power drill... and maybe the last 😰",
     description:

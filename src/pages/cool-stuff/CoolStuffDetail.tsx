@@ -47,7 +47,7 @@ export function CoolStuffDetail() {
             {project.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-neutral-100 px-3 py-1 text-xs text-neutral-600"
+                className="rounded-full bg-[#5887FF] px-3 py-1 text-sm text-white"
               >
                 {tag}
               </span>
@@ -61,7 +61,7 @@ export function CoolStuffDetail() {
 
         {/* Links */}
         {project.links && project.links.length > 0 && (
-          <section className="mt-14">
+          <section className="mt-8">
 
             <div className="mt-5 flex flex-wrap gap-4">
               {project.links.map((link) => (
@@ -96,7 +96,7 @@ export function CoolStuffDetail() {
               gallery
             </h2>
 
-            <div className="mt-6 columns-1 gap-4 sm:columns-2">
+            <div className="mt-6 columns-1 gap-4 sm:columns-3">
               {project.images.map((image, index) => (
                 <img
                   key={image}
