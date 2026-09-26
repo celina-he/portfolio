@@ -83,7 +83,7 @@ export function Hero() {
 
             ${
               hasScrolled
-                ? "pointer-events-none translate-y-3 opacity-0"
+                ? "pointer-events-none translate-y-8 opacity-0"
                 : "opacity-100"
             }
           `}

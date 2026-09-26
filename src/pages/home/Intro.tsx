@@ -116,7 +116,6 @@ export function Intro() {
               <span className="text-[#356cff]">
                 software engineering @ uwaterloo
               </span>{" "}
-              because i had too much screen time as a kid.
             </p>
 
             <p>
